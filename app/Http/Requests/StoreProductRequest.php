@@ -26,6 +26,7 @@ class StoreProductRequest extends FormRequest
         return [
             'name' => 'required|min:6|max:25',
             'price' => 'required|integer',
+            'photo' => 'required|image',
         ];
     }
 }

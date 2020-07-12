@@ -37,7 +37,7 @@
             <br />
             <select name="category_id" class="form-control">
             @foreach($categories as $category)
-                    <option value="{{ $category->id }}" @if ($category->name == old('category_name')) selected @endif>{{ $category->name }}</option>
+                    <option value="{{ $category->id }}" @if ($category->id == old('category_id')) selected @endif>{{ $category->name }}</option>
             @endforeach
             </select>
             <br />
