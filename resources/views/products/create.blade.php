@@ -44,7 +44,7 @@
 
             Photo:
             <br />
-            <input type="file" name="photo" />
+            <input type="file" name="photo" value="{{ old('photo') }}"/>
             <br /><br />
 
             <input type="submit" class="btn btn-primary" value="Save" />
